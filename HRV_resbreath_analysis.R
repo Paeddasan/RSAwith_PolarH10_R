@@ -1,10 +1,6 @@
 # Perpare Environment ---------------------------------------####
 rm(list = ls()) #remove environment
 
-
-if(Sys.info()["nodename"] == "A591-D070" ){
-  .libPaths("Z:/Documents/R/Packages")
-}
 #necessary packages
 packages <- c("tidyverse",
               "stringr",
